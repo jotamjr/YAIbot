@@ -1,0 +1,17 @@
+YAIbot
+
+Yet Another IRC bot, is based on the well known Bot::BasicBot::Pluggable
+framework that allows this bot to have very interesting features like
+on the fly modules load, in this way your bot can continue to have new
+features without the need to reload the bot everytime you want to add
+a new feature to it.
+
+LICENSE AND COPYRIGHT
+
+Copyright (C) 2011 Jotam Jr. Trejo
+
+This program is free software; you can redistribute it and/or modify it
+under the terms of either: the GNU General Public License as published
+by the Free Software Foundation; or the Artistic License.
+
+See http://dev.perl.org/licenses/ for more information.
