@@ -1,10 +1,15 @@
 YAIbot
 
-Yet Another IRC bot, is based on the well known Bot::BasicBot::Pluggable
-framework that allows this bot to have very interesting features like
-on the fly modules load, in this way your bot can continue to have new
-features without the need to reload the bot everytime you want to add
-a new feature to it.
+Yet Another IRC bot, this IRC bot is based on the well known 
+Bot::BasicBot::Pluggable framework, using this framework gives us
+fast access to the power of POE within our bot.
+
+YAIbot has some interesting features like:
++ On the fly (un)load of modules
++ Small scripts for small tasks
+
+This is a generalized wrapper of BasicBot::Pluggable created just
+for fun!
 
 LICENSE AND COPYRIGHT
 

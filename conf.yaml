@@ -11,4 +11,4 @@ modules:
   - module: Loader
   - module: Auth
 channels:
-  - #jotamjr
+  - #yaibot
