@@ -1,0 +1,14 @@
+server:   irc.freenode.net
+port:     6667
+nick:     yaibot
+username: yaibot
+charset:  utf-8
+store:
+  type:  Bot::BasicBot::Pluggable::Store::DBI
+  dsn:   dbi:SQLite:store.db
+  table: core_dump
+modules:
+  - module: Loader
+  - module: Auth
+channels:
+  - #jotamjr
